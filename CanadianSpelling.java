@@ -1,4 +1,5 @@
 //Richa Dalal 
+//American to Canadian Spelling
 
 import hsa.Console; 
 import java.awt.*; 
