@@ -1,6 +1,5 @@
 //Richa Dalal 
-//Program Which Converts American Spelling to Canadian Spelling
- 
+
 import hsa.Console; 
 import java.awt.*; 
 import java.util.*; 
