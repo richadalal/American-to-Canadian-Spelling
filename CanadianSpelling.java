@@ -11,7 +11,6 @@ public class CanadianSpelling
   
 {
 static Console c; 
-
  
   public static void main(String[] args) throws IOException  
   {
@@ -20,9 +19,9 @@ static Console c;
     String word; 
     c.println("Type any word which you would like to see a change in spelling for");  
     word = c.readLine(); 
-   String replaced = word.replace("or", "our"); 
-   c.println("This is the new word with the Canadian spelling:"); 
-   c.println(replaced); 
+    String replaced = word.replace("or", "our"); 
+    c.println("This is the new word with the Canadian spelling:"); 
+    c.println(replaced); 
      
   }
 }
