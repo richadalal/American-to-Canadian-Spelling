@@ -1,27 +1,21 @@
 //Richa Dalal 
 //American to Canadian Spelling
 
-import hsa.Console; 
-import java.awt.*; 
-import java.util.*; 
-import javax.imageio.*; 
-import java.io.*; 
- 
-public class CanadianSpelling 
+import java.util.Scanner;
+
+public class CanadianSpelling
+{ 
+public static void main(String[] args)   
+
+  { 
+    Scanner sc= new Scanner(System.in);
   
-{
-static Console c; 
- 
-  public static void main(String[] args) throws IOException  
-  {
-    c = new Console(); 
-    
     String word; 
-    c.println("Type any word which you would like to see a change in spelling for");  
-    word = c.readLine(); 
+    System.out.println("Type any word which you would like to see a change in spelling for");  
+    word = sc.nextLine(); 
     String replaced = word.replace("or", "our"); 
-    c.println("This is the new word with the Canadian spelling:"); 
-    c.println(replaced); 
+    System.out.println("This is the new word with the Canadian spelling:"); 
+   System.out.println(replaced); 
      
   }
 }
